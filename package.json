@@ -6,18 +6,30 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:migrate": "sequelize-cli db:migrate",
+    "db:migrate:status": "sequelize-cli db:migrate:status"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.8",
+    "jose": "^6.2.12",
+    "lucide-react": "^1.58.0",
+    "mariadb": "^3.5.4",
+    "mysql2": "^3.24.5",
+    "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "sequelize": "^6.37.8",
+    "zod": "^4.6.6"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@eslint/eslintrc": "^3",
+    "autoprefixer": "^10.6.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.5.30",
+    "sequelize-cli": "^6.6.5",
+    "tailwindcss": "^3.4.17"
   }
 }

@@ -8,6 +8,7 @@ import {
   Notification,
   ActivityLog,
 } from "@/models";
+
 import { getAuthenticatedUser } from "@/lib/auth";
 
 export const runtime = "nodejs";
